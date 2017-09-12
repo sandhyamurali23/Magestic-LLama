@@ -1,0 +1,141 @@
+              #language
+              {
+                float:left;
+                font-size:12px;
+                font-family:"helvetica";
+                font-weight:normal;
+                padding-top:15px;
+                margin:0px;
+                margin-left:950px;
+                color:white;
+            }
+            #have_an_account:hover
+            {
+                color:#1DA1F2;
+            }
+            #language:hover
+            {
+                color:#1DA1F2;
+            }
+            #have_an_account{
+                float:left;
+                font-size:12px;
+                font-family:"helvetica";
+                font-weight:normal;
+                text-decoration:none;
+                padding-top:15px;
+                margin:0px;
+                padding-left:10px;
+                color:white;
+            }
+            #signupblock{
+                width:400px;
+                height:600px;
+                margin:110px 200px 100px 450px;
+            }
+            #joinllama{
+                font-size:27px;
+                font-weight:bold;
+                font-family:"helvetica";
+                align-content: center;
+                margin-left: 380px;
+            }
+            #fullname{
+                align-content: center;
+                margin-left: 250px;
+                height:30px;
+                font-size:15px;
+                margin-bottom:25px;
+                font-family:"helvetica";
+                width:500px;
+                border:1px solid #E6ECF0;
+                border-radius:5px;
+                
+            }
+            #phone_email{
+                align-content: center;
+                margin-left: 250px;
+                height:30px;
+                font-size:15px;
+                margin-bottom:25px;
+                font-family:"helvetica";
+                width:500px;
+                border:1px solid #E6ECF0;
+                border-radius:5px;
+                
+            }
+            #password{
+                align-content: center;
+                margin-left: 250px;
+                height:30px;
+                font-size:15px;
+                margin-bottom:25px;
+                font-family:"helvetica";
+                width:500px;
+                border:1px solid #E6ECF0;
+                border-radius:5px;
+            }
+            #personalize_checkbox{
+                margin-bottom:25px;
+                font-size:14px;
+                font-family:"helvetica";
+                align-content: center;
+                margin-left: 250px;
+            }
+            #learmore{
+                text-decoration:none;
+                color:#006400;
+            }
+            #signup{
+                background-color:#006400;
+                border-color:#006400;
+                border-radius:5px;
+                color: white;
+                padding:10px 0px;
+                margin-bottom:25px;
+                width:500px;
+                font-size:16px;
+                font-weight:bold;
+                font-family: 'helvetica';
+                align-content: center;
+                margin-left: 250px;
+            }
+            #paragraph{
+                font-size:13px;
+                font-weight:normal;
+                font-family:"helvetica";
+                margin-bottom:25px;
+                margin-left: 250px;
+            }
+            #termsofservice{
+                text-decoration:none;
+                color:##006400;
+            }
+            #termsofservice:hover{
+                text-decoration:underline;
+            }
+            #privacypolicy{
+                text-decoration:none;
+                color:#006400;
+            }
+            #privacypolicy:hover{
+                text-decoration:underline;
+            }
+            #cookieuse{
+                text-decoration:none;
+                color:#006400;
+            }
+            #cookieuse:hover{
+                text-decoration:underline;
+            }
+            #advancedoptions{
+                text-decoration:none;
+                color:#006400;
+                font-size:13px;
+                font-family:"helvetica";
+                font-weight:normal;
+            }
+             #advancedoptions:hover{
+                text-decoration:underline;
+            } 
+            

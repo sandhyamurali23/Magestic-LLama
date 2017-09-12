@@ -1,0 +1,35 @@
+ .leftpane1 {
+                width: 45%;
+                margin-left: 15px; 
+                height: 55%;
+                float: left;
+
+                border-collapse: collapse;
+            }
+
+
+                .rightpane1 {
+                width: 45%;
+                margin-right: 15px; 
+                height: 55%;
+                float: right;
+
+                border-collapse: collapse;
+            }
+
+      #video
+            {
+              float:left;
+             margin-top: 25px;
+                margin-left: 25px;
+            }
+            
+            
+         #video1
+            {
+              align-content: center;
+             margin-top: 25px;
+                margin-right: 25px;
+                float: right;
+            }
+      

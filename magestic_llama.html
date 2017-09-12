@@ -1,0 +1,467 @@
+<doctype !html>
+<html>
+	<head>
+        
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Magestic llama</title>
+        <link rel = "style-sheet" href ="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+         <link rel = "stylesheet" href = "register.css">
+        <link rel = "stylesheet" href = "login.css">
+        <link rel = "stylesheet" href = "modal.css">
+        <link rel = "stylesheet" href = "magestic_llama.css">
+         <link rel = "stylesheet" href = "button_style.css">
+         <link rel = "stylesheet" href = "about.css">
+         <link rel = "stylesheet" href = "gallery.css">
+        <link rel = "stylesheet" href = "news.css">
+          <link rel = "stylesheet" href = "video.css">
+        <style>
+            
+        
+            #magestic_llama_complete
+            {
+               margin: 0px;
+                padding = 0px;
+           
+            }
+           
+          
+            body 
+            {
+                height: 100%;
+            overflow: scroll;
+            }
+  
+        </style>
+        
+
+	</head>
+	<body>
+		<div id = "magestic_llama_complete">
+			<div id = "magestic_llama">
+               
+                <button type = "button" id = "login">Login</button>
+                <button type = "button" id = "signin">Sign up</button>
+				<p id = "text_magestic_llama"> Magestic llama!</p>
+                 <p id="llama">
+                Llama, (Lama glama), South American member of the camel family are slender-bodied animals and have long legs and necks, short tails, small heads, and large, pointed ears....
+                </p>
+                
+                <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id= joinllama>
+                    <p>Register today</p>
+                </div>
+                  
+                       <div>
+                        <form name = "signupform" method="post" onsubmit="return validateSignup()" >
+                            <input type="text" name="fullname" placeholder="Full name" id=fullname size=60px><br>
+                            <input type="text" name="phone" placeholder="Phone" id=phone_email size=60px><br>
+                            <input type="password" name="password1" placeholder="Password" id=password size =60px><br>
+                            <div id=personalize_checkbox>
+                                <label id=personalize><input type="checkbox" name="personalize"> Personalize based on where you've seen Llama content on the web.</label>
+                                <a id = learmore href="">Learn more.</a><br>
+                            </div>
+                            <input type="submit" name="submit" value="Sign up" id ="signup" height="200">
+                        </form>
+                        <div id = paragraph>
+                            <p>By signing up, you agree to the <a id = termsofservice href="">Terms of Service</a> and <a id = privacypolicy href="">Privacy Policy</a>, including <a id = cookieuse href="">Cookie Use</a>.</p>
+                        </div>
+                        <div>
+                            <a id = advancedoptions href="">Advanced Options</a>
+                        </div>
+                    </div>
+
+              </div>
+
+                </div>
+                
+                
+               <div id="myModal1" class="modal1">
+
+              <!-- Modal content -->
+              <div class="modal-content1">
+                <span class="close1">&times;</span>
+              
+                  <div id= joinllama>
+                    <p>Login Now!</p>
+                </div>
+                   <div>
+                    <form name = "loginform" method="post" onsubmit="return validateLogin()">
+                        <input type = "text" name = "First name" placeholder="Phone Number" id='first_name' size='40'><br>
+                        <input type = "password" name = "Password" placeholder="Password" id='password1' size='40'><br>
+                        <div id= rememberforgot>
+                            <label id="remember_me"><input type = "checkbox" name = "Remember me" value = "Remember me" >Remember me.</label>
+                            
+                        </div>
+                        <input type="submit" value= "Log in" id='submit' height="200">
+                    </form>
+                </div>
+            </div>
+        
+          
+              </div>
+
+            </div> 
+   
+                
+			</div>
+            
+            <div>
+                <fieldset class="about">
+                <legend>About Magestic Llama</legend>
+                </fieldset>
+                
+                <div class="leftpane">
+                 <p id="about_text">Origin</p>
+                <div id="img_about">
+                     <img class="img_circle" src="images/illama.jpg" alt="origin_img" height="35%" width="35%">   
+                 </div>   
+                    <p id="about_description">Llama is thought to have originated in North America around 40 million years ago and have migrated to South America and Asia around 3 million years ago!</p>
+               
+                </div> 
+                
+                <div class="rightpane">
+                <p id="about_text">Ancestors</p>
+                    <div id="img_about">
+                        <img class="img_circle" src="images/illama2.jpg" alt="ancestor_img" height="35%" width="35%">
+                    </div>
+                    
+                     <p id="about_description">The llama is thought to have evolved from the old world camel-like animals that inhabited the regions that is today the Middle East!</p>    
+                </div>
+                
+                <div class="middlepane1">
+                <p id="about_text">Food Habits</p>
+                    
+                    <div id="img_about">
+                     <img class="img_circle" src="images/food_llama.jpg" alt="food_img" height="35%" width="35%">          
+                 </div>
+                    
+                    <p id="about_description">The llama gets most of its nutrition from grass, leaves and young shoots.Llama must drink more often and llamas therefore prefer to be close to water!</p>
+                </div>
+                
+                 <div class="middlepane2">
+                <p id="about_text">Breeding</p>
+                     
+                     <div id="img_about">
+                     <img class="img_circle" src="images/baby_llama.jpg" alt="baby_img" height="35%" width="35%">
+                 </div>
+                       <p id="about_description">Llamas give birth to baby llamas (known as crias). The gestation period for a llama is between 11 and 12 months and the birth of the cria is usually over within half an hour!</p>
+                </div>
+                
+                
+            </div>
+            
+            
+            <div>
+            
+            <fieldset class="gallery">
+                <legend>Gallery</legend>
+                </fieldset>
+                
+             <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images/illama.jpg" style="width:100%">
+              <div class="text">Image 1</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images/illama1.jpg" style="width:100%">
+              <div class="text">Image 2</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images/illama2.jpg" style="width:100%">
+              <div class="text">Image 3</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+                
+            <br>
+
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>           
+			
+		</div>
+            
+            <div>
+            
+              <fieldset class="news">
+                <legend>News</legend>
+                </fieldset>
+                   <div class="pane_news_top">
+                          
+                      <p id="news_text">Bobby with some of our llamas</p>
+                      <p id="news_description">
+                     All the babies have been weaned and their mums have all joined up together to form one large “cloud of llamas “ they will spend the winter roaming over the whole farm, which is really a spectacular sight to see.
+                      </p>
+                 </div>
+                
+                <div class="pane_news_bottom">
+                
+                      <p id="news_text">Danny and Bobby</p>
+                      <p id="news_description">
+                     On the farm the sheep numbers have increased, hence the arrival of Danny the Sheep dog, he has settled in well and is eager to please and keen to work, another arrival is Bobby the Labrador puppy, he just wants to make friends with everybody including the llamas.
+                      </p>
+                 </div>
+                      
+            </div>
+            <div>
+            
+            <fieldset class="news">
+                <legend>Videos and Posts</legend>
+                </fieldset>
+                
+                 <div class="leftpane1">
+              <div id="video">
+                      <iframe width="500" height="350"
+src="https://www.youtube.com/embed/7ngsQZ9X7jE">
+</iframe>
+                     </div>
+                    
+                </div>
+                
+                
+                 <div class="rightpane1">
+               <div id="video1">
+                      <iframe width="500" height="350"
+src="https://www.youtube.com/embed/Z-l4byjON1I">
+</iframe>
+                     </div>
+                </div>
+                    
+                
+            </div>
+          
+            
+            <script>
+       
+        var modal = document.getElementById('myModal');
+
+       
+        var btn = document.getElementById("signin");
+
+       
+        var span = document.getElementsByClassName("close")[0];
+
+       
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+       
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        
+        
+        
+                
+        
+        function validateSignup()
+            {
+                var x = document.forms["signupform"]["fullname"].value;
+                var y = document.forms["signupform"]["phone"].value;
+                var z = document.forms["signupform"]["password1"].value;
+              
+                if((x == "")||(z=="")||(y==""))
+                {
+                    if((x == ""))
+                    {
+                        alert("Please fill the full name");
+                        return false; 
+                    }
+                    else if(z=="")
+                    {
+                        alert("Please fill the password");
+                        return false;
+                    }
+                    else if(y == "")
+                    {
+                        alert("Please enter correct phone number or email");
+                        return false;
+                    }
+                }
+                else
+                {
+                    if(y!="")
+                    {
+                        var digit = /(\d)+/;
+                        if(y.match(digit))
+                        {
+                            var digit1 = /\d{10}/;
+                            var digit2 = /(\d{3})\-(\d{3})\-(\d{4})/;
+                            if(!y.match(digit2) && !y.match(digit1))
+                                alert("enter valid number");
+                               
+                            
+                        }
+                        else
+                        {
+                            
+                            
+                                alert("enter valid phone number");
+                               
+                            
+                        }
+                    }
+                    
+                    if(true)
+                    {
+                      
+                        var number=/[0-9]/;
+                        var l_char=/[a-z]/;
+                        var u_char=/[A-Z]/;
+                        if(z.length<6)
+                        {
+                            alert("Password must have atleast 6 characters");
+                            return false;
+                           
+                        }
+                        else if(z==x)
+                        {
+                            alert("Password cannot be name");
+                             return false;
+                            
+                        } 
+                        else if(z==y)
+                        {
+                            alert("Password cannot be email or phone");
+                             return false;
+                            
+                        }
+                        else if(!number.test(z))
+                        {
+                            alert("Password must have atleast one number");
+                             return false;
+                        }
+                        else if(!l_char.test(z))
+                        {
+                            alert("Password must have alteast one lower case character");
+                             return false;
+                           
+                        }
+                        else if(!u_char.test(z))
+                        {
+                            alert("Password must have alteast one upper case character");
+                             return false;
+                            
+                        }
+                        else
+                        {
+                            
+                            return true;
+                        } 
+                    }   
+                }
+            }
+                
+        
+
+        
+        </script>
+            
+          
+    <script>
+            
+        var modal1 = document.getElementById('myModal1');
+
+       
+        var btn1 = document.getElementById("login");
+
+       
+        var span1 = document.getElementsByClassName("close1")[0];
+
+     
+        btn1.onclick = function() {
+            modal1.style.display = "block";
+        }
+
+      
+        span1.onclick = function() {
+            modal1.style.display = "none";
+        }
+
+      
+        window.onclick = function(event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+        
+        
+        
+         function validateLogin()
+            {
+                var x = document.forms["loginform"]["First name"].value;
+                var y = document.forms["loginform"]["Password"].value;
+                if((x == "")||(y==""))
+                {
+                    if((x == ""))
+                    {
+                        alert("Please fill the Phone Number");
+                        return false; 
+                    }
+                    else if(y=="")
+                    {
+                        alert("Please fill the Password");
+                        return false;
+                    }
+                }
+            }
+            
+            
+    </script>
+            
+      
+             <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+	</body>
+
+</html>
